@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <DebugType>portable</DebugType>
+    <OutputType>Library</OutputType>
+    <RuntimeIdentifier>win7-x86</RuntimeIdentifier>
+    <BaseNuGetRuntimeIdentifier>win7-x86</BaseNuGetRuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SwaggerTest.ServiceInterface\SwaggerTest.ServiceInterface.csproj" />
+    <ProjectReference Include="..\SwaggerTest.ServiceModel\SwaggerTest.ServiceModel.csproj" />
+
+    <PackageReference Include="NUnit" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+    <PackageReference Include="ServiceStack.Core" Version="5.*" />
+    <PackageReference Include="ServiceStack.Kestrel" Version="5.*" />
+  </ItemGroup>
+
+</Project>

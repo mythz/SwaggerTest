@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ServiceStack.Core" Version="5.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SwaggerTest.ServiceModel\SwaggerTest.ServiceModel.csproj" />
+  </ItemGroup>
+
+</Project>
